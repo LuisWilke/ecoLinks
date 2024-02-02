@@ -6,7 +6,7 @@
 
 :root {
     --text-color: rgb(255, 255, 255);
-    --bg-url: rgba(255, 255, 255, 0.5);
+    --bg-url: rgba(248, 248, 248, 0.5);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -15,7 +15,7 @@
 
 .light {
     --text-color: black;
-    --bg-url: rgba(233, 225, 225, 0.5);
+    --bg-url: rgba(101, 167, 211, 0.5);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
