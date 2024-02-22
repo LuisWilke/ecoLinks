@@ -3,10 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
 
 body {
     background-color: #E1F0DA;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.subtitle {
+    color: rgb(75, 199, 221);
 }
 
 #container {
@@ -26,7 +35,7 @@ body {
 }
 
 #profile p {
-    font-weight: 500;
+    font-weight: bold;
     line-height: 24px;
     margin-top: 8px;
 }
@@ -47,22 +56,41 @@ ul li a {
     justify-content: center;
 
     padding: 16px 24px;
+    color: black;
+    font-weight: 700;
 
-    box-shadow: 5px 5px 0px 2px #9AD0C2;
+   
 
-    background-color: #BFD8AF;
+    background-color: #aadcdf;
+    box-shadow:
+    1px 1px 0 1px #dadae6,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+    
  
     border-radius: 3px;
     text-decoration: none;
     font-weight: 500;
-}
 
-ul li a:hover {
-    color: #9AD0C2;
-    border: 1.5px ;
+    transform:
+    perspective(800px)
+    rotateY(25deg) scale(1)
+    rotateX(10deg);
     
-    box-shadow: 0px 0px 0px 0px;
-    transition: all 0.6s;
+    opacity: 0.9;
+    transition: 0.6s ease all;
+
+    &:hover {
+        transform:
+          perspective(800px)
+          rotateY(-15deg)
+          translateY(-20px)
+          rotateX(10deg)
+          scale(1);
+        filter: blur(0);
+        opacity: 0.8;
+        font-weight: 800;
+      }
 }
 
 
@@ -72,7 +100,7 @@ ul li a:hover {
 
     padding: 24px 0;
 
-    font-size: 24px;
+    font-size: 28px;
 }
 
 #social-links a {
@@ -82,6 +110,7 @@ ul li a:hover {
     padding: 16px;
 
     border-radius: 30%;
+   
 }
 
 
