@@ -75,8 +75,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: #6fcbcf;
-    transition: 0.5s;
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
 }
 
 
